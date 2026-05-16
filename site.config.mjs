@@ -1,0 +1,33 @@
+export const siteConfig = {
+  baseUrl: "https://www.srbmortgage.com",
+  name: "Srikanth Reddy Bollampalli | Mortgage Loan Officer",
+  shortName: "Srikanth Reddy Bollampalli",
+  brandName: "Srikanth Reddy Bollampalli",
+  titleSuffix: "Mortgage Loan Officer",
+  brokerage: "Barrett Financial Group",
+  nmls: {
+    mlo: "2460039",
+    brokerage: "181106",
+  },
+  email: "srikanth@barrettfinancial.com",
+  phonePrimary: "(470)-223-5655",
+  phonePrimaryHref: "+14702235655",
+  phoneSecondary: "(404)-200-3346",
+  phoneSecondaryHref: "+14042003346",
+  profileUrl: "https://www.barrettfinancial.com/srikanth",
+  applyUrl: "https://181106.my1003app.com/2460039/register?time=1756254538858",
+  rateAlert: {
+    action: "https://formspree.io/f/mqadzdln",
+    subject: "Rate Update Lead - Srikanth Bollampalli",
+  },
+  states: [
+    { code: "GA", name: "Georgia" },
+    { code: "FL", name: "Florida" },
+    { code: "TN", name: "Tennessee" },
+    { code: "NC", name: "North Carolina" },
+    { code: "SC", name: "South Carolina" },
+    { code: "MD", name: "Maryland" },
+    { code: "TX", name: "Texas" },
+  ],
+  socialImage: "/assets/seo-card.svg",
+};

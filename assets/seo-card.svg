@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Mortgage planning with Srikanth Reddy Bollampalli</title>
+  <desc id="desc">A clean mortgage planning graphic for purchase, refinance, HELOC, FHA, VA, jumbo, and first-time buyer loan guidance.</desc>
+  <rect width="1200" height="630" fill="#dceef6" />
+  <path d="M0 0h1200v630H0z" fill="#f7fbfb" opacity=".72" />
+  <rect x="74" y="78" width="1052" height="474" rx="18" fill="#ffffff" stroke="#dce4eb" stroke-width="4" />
+  <rect x="112" y="116" width="122" height="122" rx="16" fill="#153a5b" />
+  <text x="173" y="194" text-anchor="middle" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff">B</text>
+  <text x="268" y="154" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#17212b">Srikanth Reddy Bollampalli</text>
+  <text x="268" y="204" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#667482">Mortgage Loan Officer | MLO NMLS #2460039</text>
+  <text x="112" y="310" font-family="Arial, sans-serif" font-size="58" font-weight="700" fill="#153a5b">Purchase, Refinance, HELOC</text>
+  <text x="112" y="365" font-family="Arial, sans-serif" font-size="30" fill="#3d4c59">Licensed in GA, FL, TN, NC, SC, MD, and TX</text>
+  <rect x="112" y="424" width="220" height="62" rx="10" fill="#0d796f" />
+  <text x="222" y="464" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">Apply Now</text>
+  <rect x="360" y="424" width="246" height="62" rx="10" fill="#ffffff" stroke="#dce4eb" stroke-width="3" />
+  <text x="483" y="464" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#153a5b">Get Rate Alert</text>
+  <rect x="766" y="280" width="270" height="190" rx="14" fill="#153a5b" />
+  <path d="M816 372 902 302l86 70v74H816z" fill="#ffffff" />
+  <path d="M802 364 902 282l100 82" fill="none" stroke="#d59d35" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

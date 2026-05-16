@@ -1,0 +1,11 @@
+node_modules/
+.python-deps/
+.playwright-browsers/
+data/*.xlsx
+data/*.xls
+data/*.xlsm
+data/*.csv
+output/
+screenshots/
+playwright-report/
+.auth/
