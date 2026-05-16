@@ -183,7 +183,7 @@ p {
   grid-template-columns: minmax(0, 1fr) minmax(340px, 0.82fr);
   gap: clamp(28px, 5vw, 72px);
   min-height: calc(100vh - 78px);
-  padding: clamp(46px, 7vw, 88px) clamp(18px, 5vw, 72px) 42px;
+  padding: clamp(28px, 4vw, 48px) clamp(18px, 5vw, 72px) 42px;
   background:
     linear-gradient(115deg, rgba(220, 238, 246, 0.96), rgba(255, 255, 255, 0.92) 52%, rgba(242, 247, 243, 0.9)),
     radial-gradient(circle at 85% 16%, rgba(213, 157, 53, 0.22), transparent 25%);
@@ -191,7 +191,7 @@ p {
 }
 
 .hero-copy {
-  align-self: center;
+  align-self: start;
   max-width: 780px;
 }
 
@@ -241,7 +241,7 @@ h1 {
 
 .hero-visual {
   position: relative;
-  align-self: center;
+  align-self: start;
   min-height: 560px;
 }
 
