@@ -1,5 +1,5 @@
 export const siteConfig = {
-  baseUrl: "https://www.srbmortgage.com",
+  baseUrl: "https://srbmortgage.com",
   name: "Srikanth Reddy Bollampalli | Mortgage Loan Officer",
   shortName: "Srikanth Reddy Bollampalli",
   brandName: "Srikanth Reddy Bollampalli",
