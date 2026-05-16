@@ -55,7 +55,7 @@ This updates canonical URLs, Open Graph URLs, `sitemap.xml`, and `robots.txt`.
 
 ## Rate update form setup
 
-The `Rate updates` header button opens an overlay lead form. It posts to Formspree:
+The `Get Rate Alert` header button opens an overlay lead form. It posts to Formspree:
 
 ```html
 https://formspree.io/f/mqadzdln

@@ -355,7 +355,7 @@ function header(pageType = "default") {
         <a href="tel:${siteConfig.phonePrimaryHref}">${siteConfig.phonePrimary}</a>
         <a href="mailto:${siteConfig.email}">${siteConfig.email}</a>
       </div>
-      <button class="header-rate-button" type="button" data-open-rate-modal>Rate updates</button>
+      <button class="header-rate-button" type="button" data-open-rate-modal>Get Rate Alert</button>
       <a class="header-action" href="${siteConfig.applyUrl}">Apply now</a>
     </header>
   `;
@@ -511,7 +511,7 @@ function rateModal() {
           <input type="hidden" name="form_name" value="${siteConfig.rateAlert.subject}" />
           <div class="lead-form-grid">
             <label>Name <input name="name" type="text" autocomplete="name" required /></label>
-            <label>Loan amount <input name="loan_amount" type="number" min="0" step="1000" required /></label>
+            <label>Purchase price <input name="purchase_price" type="number" min="0" step="1000" required /></label>
             <label>FICO score <input name="fico_score" type="number" min="300" max="850" step="1" required /></label>
             <label>Current loan balance <input name="current_loan_balance" type="number" min="0" step="1000" /></label>
             <label>Contact number <input name="contact_number" type="tel" autocomplete="tel" required /></label>
