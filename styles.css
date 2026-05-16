@@ -391,7 +391,7 @@ h1 {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(280px, 0.68fr);
   gap: clamp(28px, 5vw, 64px);
-  padding: clamp(42px, 6vw, 82px) clamp(18px, 5vw, 72px);
+  padding: clamp(26px, 4vw, 48px) clamp(18px, 5vw, 72px) clamp(24px, 3vw, 34px);
   background:
     linear-gradient(115deg, rgba(220, 238, 246, 0.96), rgba(255, 255, 255, 0.92) 54%, rgba(242, 247, 243, 0.9)),
     radial-gradient(circle at 85% 16%, rgba(213, 157, 53, 0.22), transparent 25%);
@@ -402,7 +402,7 @@ h1 {
 }
 
 .seo-hero-media {
-  align-self: center;
+  align-self: start;
   margin: 0;
 }
 

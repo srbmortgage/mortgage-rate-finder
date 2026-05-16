@@ -660,7 +660,7 @@ function head(page, faq) {
     <meta property="og:url" content="${url}" />
     <meta property="og:image" content="${siteConfig.baseUrl}${siteConfig.socialImage}" />
     <meta name="twitter:card" content="summary_large_image" />
-    <link rel="stylesheet" href="/styles.css?v=8" />
+    <link rel="stylesheet" href="/styles.css?v=9" />
     <script type="application/ld+json">${jsonLd(page, faq)}</script>
   `;
 }
