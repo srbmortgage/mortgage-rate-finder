@@ -6,6 +6,8 @@ import { homePage, servicePages, statePages } from "../site.pages.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = join(__dirname, "..");
+const socialImageUrl = `${siteConfig.baseUrl}${siteConfig.socialImage}?v=2`;
+const socialImagePath = `${siteConfig.socialImage}?v=2`;
 const allPages = [
   { ...homePage, type: "home" },
   ...statePages.map((page) => ({ ...page, type: "state" })),
@@ -488,7 +490,7 @@ function hero(page) {
         </div>
       </div>
       <figure class="seo-hero-media">
-        <img src="${siteConfig.socialImage}" alt="Mortgage planning dashboard for purchase and refinance borrowers" />
+        <img src="${socialImagePath}" alt="Mortgage planning dashboard for purchase and refinance borrowers" />
       </figure>
     </section>
   `;
@@ -589,7 +591,7 @@ function jsonLd(page, faq) {
       description: page.description,
       inLanguage: "en-US",
       isPartOf: { "@id": `${siteConfig.baseUrl}/#website` },
-      primaryImageOfPage: `${siteConfig.baseUrl}${siteConfig.socialImage}`,
+      primaryImageOfPage: socialImageUrl,
     },
     {
       "@type": "LocalBusiness",
@@ -600,7 +602,7 @@ function jsonLd(page, faq) {
       url: siteConfig.profileUrl,
       telephone: siteConfig.phonePrimary,
       email: siteConfig.email,
-      image: `${siteConfig.baseUrl}${siteConfig.socialImage}`,
+      image: socialImageUrl,
       priceRange: "$$",
       areaServed: siteConfig.states.map((state) => ({ "@type": "AdministrativeArea", name: state.name })),
       memberOf: {
@@ -658,7 +660,7 @@ function head(page, faq) {
     <meta property="og:title" content="${escapeHtml(page.title)}" />
     <meta property="og:description" content="${escapeHtml(page.description)}" />
     <meta property="og:url" content="${url}" />
-    <meta property="og:image" content="${siteConfig.baseUrl}${siteConfig.socialImage}" />
+    <meta property="og:image" content="${socialImageUrl}" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="stylesheet" href="/styles.css?v=9" />
     <script type="application/ld+json">${jsonLd(page, faq)}</script>
