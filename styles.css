@@ -468,6 +468,10 @@ h1 {
   padding: 18px clamp(18px, 5vw, 72px) clamp(42px, 5vw, 64px);
 }
 
+.seo-hero .seo-cta-row {
+  padding: 24px 0 0;
+}
+
 .related-section {
   background: #fff;
 }

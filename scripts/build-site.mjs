@@ -488,7 +488,7 @@ function hero(page) {
         </div>
       </div>
       <figure class="seo-hero-media">
-        <img src="${siteConfig.socialImage}" alt="Mortgage planning dashboard for home purchase refinance and HELOC borrowers" />
+        <img src="${siteConfig.socialImage}" alt="Mortgage planning dashboard for purchase and refinance borrowers" />
       </figure>
     </section>
   `;
