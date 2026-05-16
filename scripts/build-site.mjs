@@ -244,8 +244,8 @@ function breadcrumbs(page) {
 
 function relatedLinks(page) {
   const stateSubset = page.type === "state"
-    ? stateLinks.filter((link) => !link.href.includes(page.slug)).slice(0, 4)
-    : stateLinks.slice(0, 4);
+    ? stateLinks.filter((link) => !link.href.includes(page.slug))
+    : stateLinks;
   const serviceSubset = page.type === "service"
     ? serviceLinks.filter((link) => !link.href.includes(page.slug)).slice(0, 4)
     : serviceLinks.slice(0, 4);
