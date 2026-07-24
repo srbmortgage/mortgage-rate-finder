@@ -50,6 +50,13 @@ function wordCount(html) {
     .filter(Boolean).length;
 }
 
+function contentWordCount(html) {
+  return wordCount(
+    html
+      .replace(/<footer[\s\S]*?<\/footer>/g, " "),
+  );
+}
+
 function paragraphs(items) {
   return items.map((text) => `<p>${escapeHtml(text)}</p>`).join("\n");
 }
@@ -553,11 +560,14 @@ function rateModal() {
 }
 
 function footer() {
+  const texasComplaintUrl = "https://www.barrettfinancial.com/texas-complaint";
+  const nmlsConsumerAccessUrl = "https://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/181106";
+
   return `
     <footer class="site-footer">
       <div class="footer-brand">
-        <strong>${escapeHtml(siteConfig.shortName)}</strong>
-        <p>Mortgage Loan Originator. MLO NMLS #${siteConfig.nmls.mlo}. ${siteConfig.brokerage} NMLS #${siteConfig.nmls.brokerage}. Licensed in GA, FL, TN, NC, SC, MD, and TX.</p>
+        <strong>Srikanth Bollampalli | NMLS #${siteConfig.nmls.mlo}</strong>
+        <p>Barrett Financial Group, L.L.C. | NMLS #${siteConfig.nmls.brokerage} | 2701 East Insight Way, Suite 150, Chandler, AZ 85286 | FL MLD1880 | GA 181106 | MD 181106 | NC B-203722 | SC MLS - 181106 | TX view complaint policy at <a href="${texasComplaintUrl}">barrettfinancial.com/texas-complaint</a> | Equal Housing Opportunity | Equal Housing Lender | This is not a commitment to lend. All loans are subject to credit approval. | <a href="${nmlsConsumerAccessUrl}">nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/181106</a></p>
       </div>
       <div class="footer-contact">
         <strong>Contact</strong>
@@ -573,9 +583,8 @@ function footer() {
           <path d="M22 36h20" />
           <path d="M22 44h20" />
         </svg>
-        <strong>Equal Housing Opportunity</strong>
+        <strong>Equal Housing Opportunity | Equal Housing Lender</strong>
       </div>
-      <p class="footer-disclaimer">This is not a commitment to lend. All loans are subject to credit approval, verification, appraisal, acceptable title, and program guidelines.</p>
     </footer>
   `;
 }
@@ -780,7 +789,7 @@ async function writeGeneratedFile(path, content) {
 }
 
 function validatePage(page, html) {
-  const count = wordCount(html);
+  const count = contentWordCount(html);
   const titleLength = page.title.length;
   const descriptionLength = page.description.length;
   const h1Count = (html.match(/<h1>/g) || []).length;
