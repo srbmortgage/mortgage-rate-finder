@@ -23,7 +23,6 @@ export const siteConfig = {
   states: [
     { code: "GA", name: "Georgia" },
     { code: "FL", name: "Florida" },
-    { code: "TN", name: "Tennessee" },
     { code: "NC", name: "North Carolina" },
     { code: "SC", name: "South Carolina" },
     { code: "MD", name: "Maryland" },

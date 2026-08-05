@@ -95,7 +95,7 @@ function sharedFaq(page) {
       },
       {
         q: `Can this loan type be used in multiple states?`,
-        a: `Srikanth is licensed in GA, FL, TN, NC, SC, MD, and TX and can help borrowers compare this option across those licensed states, subject to investor and program availability.`,
+        a: `Srikanth is licensed in GA, FL, NC, SC, MD, and TX and can help borrowers compare this option across those licensed states, subject to investor and program availability.`,
       },
       {
         q: `What information is needed to review options?`,
@@ -111,7 +111,7 @@ function sharedFaq(page) {
   return [
     {
       q: "Which states does Srikanth serve as a mortgage loan officer?",
-      a: "Srikanth Reddy Bollampalli is licensed in Georgia, Florida, Tennessee, North Carolina, South Carolina, Maryland, and Texas.",
+      a: "Srikanth Reddy Bollampalli is licensed in Georgia, Florida, North Carolina, South Carolina, Maryland, and Texas.",
     },
     {
       q: "What loan types can borrowers discuss?",
@@ -135,7 +135,7 @@ function stateContent(page) {
       <h2>${escapeHtml(page.primaryKeyword)} guidance for local borrowers</h2>
       ${paragraphs([
         `${siteConfig.shortName} helps ${page.stateName} borrowers understand mortgage options before they make a major financing decision. Whether you are buying a primary residence, refinancing an existing mortgage, using home equity, or comparing first-time home buyer loans, the conversation should start with your goals, timeline, property location, credit profile, income, assets, and comfort with monthly payment. ${page.marketNote}`,
-        `A ${page.primaryKeyword} should do more than quote a payment. The useful work is explaining what the numbers mean, which program guidelines matter, and how each choice affects cash to close, mortgage insurance, documentation, and long-term flexibility. Srikanth works with borrowers across ${page.stateName} and is also licensed in GA, FL, TN, NC, SC, MD, and TX, which helps when a family is relocating or comparing homes across state lines.`,
+        `A ${page.primaryKeyword} should do more than quote a payment. The useful work is explaining what the numbers mean, which program guidelines matter, and how each choice affects cash to close, mortgage insurance, documentation, and long-term flexibility. Srikanth works with borrowers across ${page.stateName} and is also licensed in GA, FL, NC, SC, MD, and TX, which helps when a family is relocating or comparing homes across state lines.`,
         `For ${page.secondaryKeywords[0]}, buyers may compare low down payment options, conventional loans, FHA loans, VA loans for eligible borrowers, and jumbo financing for higher-priced homes. Down payment, reserves, property type, and occupancy all affect the right path. A clear preapproval discussion helps borrowers understand what they may be comfortable offering before they sign a contract.`,
       ])}
     </section>
@@ -165,9 +165,9 @@ function serviceContent(page) {
     <section class="seo-section">
       <h2>${escapeHtml(page.primaryKeyword)} guidance from a licensed mortgage loan officer</h2>
       ${paragraphs([
-        `${page.title} can be an important part of a borrower plan, but the right answer depends on the full picture. Srikanth helps ${page.audience} compare program options across GA, FL, TN, NC, SC, MD, and TX. The review starts with purpose, property state, loan amount, FICO score, income, assets, occupancy, timeline, and comfort with payment.`,
+        `${page.title} can be an important part of a borrower plan, but the right answer depends on the full picture. Srikanth helps ${page.audience} compare program options across GA, FL, NC, SC, MD, and TX. The review starts with purpose, property state, loan amount, FICO score, income, assets, occupancy, timeline, and comfort with payment.`,
         `A strong mortgage conversation connects the loan program to the borrower's real goal. For ${page.primaryKeyword}, that may include ${page.benefits.join(", ")}. Instead of focusing only on one advertised rate, borrowers should understand estimated payment, closing costs, cash to close, rate structure, documentation, and how the loan may perform over time.`,
-        `Srikanth is a mortgage loan originator with Barrett Financial Group and is licensed in Georgia, Florida, Tennessee, North Carolina, South Carolina, Maryland, and Texas. That multi-state coverage can help borrowers who are relocating, buying an investment property, or comparing opportunities in more than one market.`,
+        `Srikanth is a mortgage loan originator with Barrett Financial Group and is licensed in Georgia, Florida, North Carolina, South Carolina, Maryland, and Texas. That multi-state coverage can help borrowers who are relocating, buying an investment property, or comparing opportunities in more than one market.`,
       ])}
     </section>
 
@@ -196,14 +196,14 @@ function homeContent() {
     <section class="seo-section">
       <h2>Mortgage loan officer for purchase, refinance, and HELOC planning</h2>
       ${paragraphs([
-        `${siteConfig.shortName} helps borrowers compare mortgage options across Georgia, Florida, Tennessee, North Carolina, South Carolina, Maryland, and Texas. The site is built for people who want practical guidance on home purchase loans, refinance mortgages, HELOCs, FHA loans, conventional loans, VA loans, jumbo loans, investment property loans, and first-time home buyer programs.`,
+        `${siteConfig.shortName} helps borrowers compare mortgage options across Georgia, Florida, North Carolina, South Carolina, Maryland, and Texas. The site is built for people who want practical guidance on home purchase loans, refinance mortgages, HELOCs, FHA loans, conventional loans, VA loans, jumbo loans, investment property loans, and first-time home buyer programs.`,
         `A mortgage decision should be understandable before it becomes urgent. Buyers may need a preapproval conversation before making an offer. Homeowners may want to know whether a refinance still makes sense after closing costs. Others may want to understand a HELOC, home equity loan, or cash-out refinance before starting a renovation or debt planning conversation.`,
         `The best starting point is a clear review of goals, loan amount, FICO score, property ZIP code, current mortgage balance when applicable, and preferred loan type. Srikanth can explain options without treating the borrower like a spreadsheet. The goal is to understand the numbers, the guidelines, and the next step.`,
       ])}
     </section>
 
     <section class="seo-section">
-      <h2>Loan options for GA, FL, TN, NC, SC, MD, and TX borrowers</h2>
+      <h2>Loan options for GA, FL, NC, SC, MD, and TX borrowers</h2>
       ${paragraphs([
         `Conventional loans can be useful for borrowers with established credit, flexible down payment options, and a desire to compare mortgage insurance structures. FHA loans may help borrowers who need more flexible credit or down payment guidelines. VA loans can be especially valuable for eligible veterans, service members, and surviving spouses. Jumbo loans may be needed when the loan amount exceeds conforming limits.`,
         `Refinance loans can be used to review rate, term, cash-out, mortgage insurance, or long-term payment goals. HELOCs and home equity loans may help homeowners access equity while keeping an existing first mortgage in place. Investment property loans require careful review of occupancy, reserves, rental income, and long-term cash flow assumptions.`,
@@ -383,7 +383,7 @@ function homeHero() {
           <button class="secondary-button" type="button" data-open-rate-modal>Get Rate Alert</button>
         </div>
         <div class="trust-row" aria-label="Borrower protections">
-          <span>Licensed in GA, FL, TN, NC, SC, MD, and TX</span>
+          <span>Licensed in GA, FL, NC, SC, MD, and TX</span>
           <span>No obligation</span>
           <span>Equal housing opportunity</span>
         </div>
@@ -480,7 +480,7 @@ function timelineSection() {
 
 function hero(page) {
   const support = page.type === "home"
-    ? "Mortgage guidance for purchase, refinance, HELOC, FHA, conventional, VA, jumbo, and first-time buyer loans across GA, FL, TN, NC, SC, MD, and TX."
+    ? "Mortgage guidance for purchase, refinance, HELOC, FHA, conventional, VA, jumbo, and first-time buyer loans across GA, FL, NC, SC, MD, and TX."
     : `Helpful mortgage guidance for ${page.primaryKeyword}, including ${page.secondaryKeywords.join(", ")}.`;
   return `
     <section class="seo-hero">
@@ -491,7 +491,7 @@ function hero(page) {
         <p class="hero-text">${escapeHtml(support)}</p>
         ${ctaBlock()}
         <div class="trust-row" aria-label="Borrower protections">
-          <span>Licensed in GA, FL, TN, NC, SC, MD, and TX</span>
+          <span>Licensed in GA, FL, NC, SC, MD, and TX</span>
           <span>No obligation</span>
           <span>Equal housing opportunity</span>
         </div>

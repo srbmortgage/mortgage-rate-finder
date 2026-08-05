@@ -2,11 +2,10 @@
 
 | Page | Primary keyword | Secondary keywords |
 | --- | --- | --- |
-| `/` | mortgage loan officer GA FL TN NC SC MD TX | purchase loans, refinance mortgage, HELOC loans |
+| `/` | mortgage loan officer GA FL NC SC MD TX | purchase loans, refinance mortgage, HELOC loans |
 | `/georgia-mortgage-loan-officer/` | Georgia mortgage loan officer | GA home purchase loans, Georgia refinance mortgage |
 | `/florida-mortgage-loan-officer/` | Florida mortgage loan officer | FL FHA loans, Florida home purchase loan |
 | `/texas-mortgage-loan-officer/` | Texas mortgage loan officer | TX refinance mortgage, Texas jumbo loans |
-| `/tennessee-mortgage-loan-officer/` | Tennessee mortgage loan officer | TN home loans, Tennessee first-time home buyer |
 | `/north-carolina-mortgage-loan-officer/` | North Carolina mortgage loan officer | NC purchase loans, North Carolina refinance |
 | `/south-carolina-mortgage-loan-officer/` | South Carolina mortgage loan officer | SC mortgage refinance, South Carolina FHA loans |
 | `/maryland-mortgage-loan-officer/` | Maryland mortgage loan officer | MD purchase loans, Maryland HELOC |

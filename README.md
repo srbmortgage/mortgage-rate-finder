@@ -36,7 +36,7 @@ Business card details currently used:
 - Srikanth Reddy Bollampalli, Mortgage Loan Originator
 - MLO NMLS #2460039
 - Barrett Financial Group, NMLS #181106
-- Licensed in GA, NC, SC, TN, FL, MD, and TX
+- Licensed in GA, NC, SC, FL, MD, and TX
 - `srikanth@barrettfinancial.com`
 - `(470)-223-5655` and `(404)-200-3346`
 - `www.barrettfinancial.com/srikanth`
