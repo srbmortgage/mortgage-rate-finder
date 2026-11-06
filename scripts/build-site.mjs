@@ -689,13 +689,6 @@ function renderPage(page) {
         ${loanOptionsSection()}
         ${checklistSection()}
         ${timelineSection()}
-        <section class="seo-home-section" aria-labelledby="home-seo-title">
-          <div class="section-intro">
-            <p class="eyebrow">Mortgage resources</p>
-            <h2 id="home-seo-title">Mortgage loan officer guidance across licensed states</h2>
-          </div>
-          ${homeContent()}
-        </section>
         ${relatedLinks(page)}
         ${faqSection(page)}
       </main>
