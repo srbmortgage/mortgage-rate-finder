@@ -22,11 +22,8 @@ export const siteConfig = {
   },
   states: [
     { code: "GA", name: "Georgia" },
-    { code: "FL", name: "Florida" },
     { code: "NC", name: "North Carolina" },
-    { code: "SC", name: "South Carolina" },
     { code: "MD", name: "Maryland" },
-    { code: "TX", name: "Texas" },
   ],
   socialImage: "/assets/seo-card.svg",
 };
